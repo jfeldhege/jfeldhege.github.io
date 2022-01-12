@@ -1,0 +1,57 @@
+---
+title: "Johannes Feldhege"
+image: "pfp.jpg"
+links:
+  # - label: Lebenslauf
+  #   url: "https://www.linkedin.com/in/johannes-feldhege/"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/johannes-feldhege/"
+  - label: XING
+    url: "https://www.xing.com/profile/Johannes_Feldhege"
+  - label: Github
+    url: "https://github.com/jfeldhege/"
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de"
+  # - label: Impressum
+  #   url: "https://twitter.com/"
+output:
+  postcards::trestles
+---
+
+
+## Ausbildung
+
+**Psychologie M.Sc.** | 2013-2016 | Universität Kassel
+
+**Psychologie B.Sc.** | 2010-2013 | Universität Hamburg
+
+**Soziologie und Sinologie B.A.** | 2007-2010 | Albert-Ludwigs-Universität Freiburg
+
+**International Baccalaureate** | 2007 | Malvern College, United Kingdom
+
+
+## Berufliche Erfahrung
+
+**Wissenschaftlicher Mitarbeiter** | Forschungsstelle für Psychotherapie, Uniklinikum Heidelberg | 2016-vsl. 03/2022
+
+**Data Science Praktikant** | Eoda GmbH, Kassel | 2016
+
+**R Tutor** | Universität Kassel | 2014-2015
+
+**Studentische Hilfskraft** | Servicestelle Empirische Forschungsmethoden, Universität Hamburg | 2011–2013
+
+## Ausgewählte Veröffentlichungen
+
+**Johannes Feldhege**, Markus Moessner, Stephanie Bauer. *Detrimental Effects of Online Pro–Eating Disorder Communities on Weight Loss and Desired Weight: Longitudinal Observational Study*. Journal of Medical Internet Research (2021). [http://dx.doi.org/10.2196/27153](http://dx.doi.org/10.2196/27153)
+
+**Johannes Feldhege**, Markus Moessner, Markus Wolf, Stephanie Bauer. *Changes in Language Style and Topics in an Online Eating Disorder Community at the Beginning of the Global COVID-19 Pandemic: Observational Study*. Journal of Medical Internet Research (2021). [http://dx.doi.org/10.2196/28346](http://dx.doi.org/10.2196/28346) 
+
+**Johannes Feldhege**, Markus Moessner, Stephanie Bauer. *Who says What? Content and Participation Characteristics in an Online Depression Community*. Journal of Affective Disorders (2019). [http://dx.doi.org/10.1016/j.jad.2019.11.007](http://dx.doi.org/10.1016/j.jad.2019.11.007)
+
+Markus Moessner, **Johannes Feldhege**, Markus Wolf, Stephanie Bauer. *Analyzing big data in social media: Text and network analyses of an eating disorder forum*. International Journal of Eating Disorders (2018). [http://dx.doi.org/10.1002/eat.22878](http://dx.doi.org/10.1002/eat.22878)
+
+#### Kontakt: 
+Email: mail [at] johannesfeldhege.de
+
+---
+Website mit [postcards](https://github.com/seankross/postcards) erstellt.
