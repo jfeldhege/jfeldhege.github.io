@@ -19,7 +19,7 @@ output:
 ---
 
 ## Über mich
-Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg untersuche ich mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
+Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2022 mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit untersucht. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
 
 #### Kontakt: 
 Email: mail [at] johannesfeldhege.de
@@ -93,11 +93,17 @@ Ein Projekt mit projecttogether und CorrelAid.
 **Die Platte unter der Lupe: Einflussfaktoren auf die Absatzzahlen einer Mannheimer Suppenküche**: Untersuchung der Absatzzahlen des Lokals Mannheimer Platte und deren saisonale und externe Einflussfaktoren. Ein Projekt mit der Mannheimer Platte und CorrelAid. [Projektbericht](http://dx.doi.org/10.31219/osf.io/3zsn6)
 
 
-## Ausgewählte Veröffentlichungen
+## Veröffentlichungen
 
 **Johannes Feldhege**, Markus Moessner, Stephanie Bauer. *Detrimental Effects of Online Pro–Eating Disorder Communities on Weight Loss and Desired Weight: Longitudinal Observational Study*. Journal of Medical Internet Research (2021). [http://dx.doi.org/10.2196/27153](http://dx.doi.org/10.2196/27153)
 
 **Johannes Feldhege**, Markus Moessner, Markus Wolf, Stephanie Bauer. *Changes in Language Style and Topics in an Online Eating Disorder Community at the Beginning of the Global COVID-19 Pandemic: Observational Study*. Journal of Medical Internet Research (2021). [http://dx.doi.org/10.2196/28346](http://dx.doi.org/10.2196/28346) 
+
+Ali, K., Fassnacht, D. B., Farrer, L., Rieger, E., **Feldhege, J.**, Moessner, M., . . . Bauer, S. *What prevents young adults from seeking help? Barriers toward help-seeking for eating disorder symptomatology*. International Journal of Eating Disorders, (2020). [https://dx.doi.org/10.1002/eat.23266](https://dx.doi.org/10.1002/eat.23266)
+
+Wilhelm, M., **Feldhege, J.**, Bauer. S., & Moessner, M. *Einsatz internetbasierter Verlaufsmessung in der Psychotherapieforschung*. Psychotherapeut, (2020). [https://doi.org/10.1007/s00278-020-00461-7](https://doi.org/10.1007/s00278-020-00461-7)
+
+**Feldhege, J.**, Moessner, M., Stieler, C., van Stipelen, J., & Bauer, S. *Wissen und Einstellungen zu Essstörungen bei Jugendlichen mit türkischem Migrationshintergrund*. Psychotherapeut, (2019). [https://doi.org/10.1007/s00278-018-0327-8](https://doi.org/10.1007/s00278-018-0327-8)
 
 **Johannes Feldhege**, Markus Moessner, Stephanie Bauer. *Who says What? Content and Participation Characteristics in an Online Depression Community*. Journal of Affective Disorders (2019). [http://dx.doi.org/10.1016/j.jad.2019.11.007](http://dx.doi.org/10.1016/j.jad.2019.11.007)
 
