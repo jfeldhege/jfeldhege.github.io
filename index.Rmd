@@ -38,7 +38,9 @@ Email: mail [at] johannesfeldhege.de
 
 ## Berufliche Erfahrung
 
-**Wissenschaftlicher Mitarbeiter** | Forschungsstelle für Psychotherapie, Uniklinikum Heidelberg | 2016-vsl. 03/2022
+**Data Scientist** | Asklepios proresearch, Hamburg | 09/2022-
+
+**Wissenschaftlicher Mitarbeiter** | Forschungsstelle für Psychotherapie, Uniklinikum Heidelberg | 2016-2022
 
 **Data Science Praktikant** | Eoda GmbH, Kassel | 2016
 
