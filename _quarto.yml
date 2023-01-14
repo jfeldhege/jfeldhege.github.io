@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "Johannes Feldhege"
+  navbar:
+    background: "#2A7B88"
+    logo: "assets/logo.png"
+    search: false
+    right:
+      - text: "Home"
+        file: index.qmd
+        aria-label: Home
+      - file: publikationen.qmd
+        aria-label: Publikationen
+      - file: Johannes_Feldhege_Lebenslauf.pdf
+        text: "CV"
+      - file: impressum.qmd
+        aria-label: Impressum
+      - icon: github
+        href: https://github.com/jfeldhege/
+        aria-label: GitHub Profile
+      - icon: linkedin
+        url: "https://www.linkedin.com/in/johannes-feldhege/"
+        aria-label: Linkedin
+      - text: "{{< ai google-scholar >}}"
+        href: "https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de"
+      - text: "{{< ai researchgate >}}"
+        href: "https://www.researchgate.net/profile/Johannes-Feldhege"
+  
+  favicon: "assets/logo.png"
+  cookie-consent:
+    type: express
+    style: interstitial
+    palette: dark
+  page-footer: 
+    right: Mit {{< fa brands r-project >}} und [Quarto](https://quarto.org/) erstellt.
+
+format:
+  html:
+    theme: 
+      light: [flatly, styles.scss]
+    toc: false
+
+editor: visual
+

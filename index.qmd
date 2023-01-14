@@ -1,0 +1,56 @@
+---
+title: "Johannes Feldhege, M.Sc. B.A."
+about: 
+  template: trestles
+  image: "assets/pfp.jpg"
+  links:
+    - text: "{{< fa file-lines >}} CV"
+      url: "assets/Johannes_Feldhege_Lebenslauf.pdf"
+    - icon: linkedin
+      url: "https://www.linkedin.com/in/johannes-feldhege/"
+    - icon: github
+      url: "https://github.com/jfeldhege/"
+    - text: "{{< ai google-scholar >}}"
+      href: "https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de"
+    - text: "{{< ai researchgate >}}"
+      href: "https://www.researchgate.net/profile/Johannes-Feldhege"
+page-layout: full
+---
+
+## Über mich
+
+Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2022 mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit untersucht. Seit 2022 arbeite ich als Data Scientist für Asklepios proreserach an Real World Evidence Studien. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
+
+#### Kontakt:
+
+{{< fa regular envelope >}}  mail \[at\] johannesfeldhege.de
+
+## Ausbildung
+
+**Psychologie M.Sc.** \| 2013-2016 \| Universität Kassel
+
+**Psychologie B.Sc.** \| 2010-2013 \| Universität Hamburg
+
+**Soziologie und Sinologie B.A.** \| 2007-2010 \| Albert-Ludwigs-Universität Freiburg
+
+**International Baccalaureate** \| 2007 \| Malvern College, United Kingdom
+
+## Berufliche Erfahrung
+
+**Data Scientist** \| Asklepios proresearch, Hamburg \| 09/2022-
+
+**Wissenschaftlicher Mitarbeiter** \| Forschungsstelle für Psychotherapie, Uniklinikum Heidelberg \| 2016-2022
+
+**Data Science Praktikant** \| Eoda GmbH, Kassel \| 2016
+
+**R Tutor** \| Universität Kassel \| 2014-2015
+
+**Studentische Hilfskraft** \| Servicestelle Empirische Forschungsmethoden, Universität Hamburg \| 2011--2013
+
+## Projekte
+
+**redditoR**: Ein R Paket für Zugriffe auf die API des sozialen Netzwerks Reddit. [Github](https://github.com/jfeldhege/redditoR)
+
+**Textanalyse von Call-Dokumentationen zur Erarbeitung von Herausforderungen und Erfolgen in vergangenen Projekten**: Ein Projekt mit projecttogether und CorrelAid.
+
+**Die Platte unter der Lupe: Einflussfaktoren auf die Absatzzahlen einer Mannheimer Suppenküche**: Untersuchung der Absatzzahlen des Lokals Mannheimer Platte und deren saisonale und externe Einflussfaktoren. Ein Projekt mit der Mannheimer Platte und CorrelAid. [Projektbericht](http://dx.doi.org/10.31219/osf.io/3zsn6)
