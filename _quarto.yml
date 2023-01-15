@@ -31,8 +31,8 @@ website:
   favicon: "assets/logo.png"
   cookie-consent:
     type: express
-    style: interstitial
-    palette: dark
+    style: headline 
+    palette: light
   page-footer: 
     right: Mit {{< fa brands r-project >}} und [Quarto](https://quarto.org/) erstellt.
 
@@ -42,5 +42,5 @@ format:
       light: [flatly, styles.scss]
     toc: false
 
-editor: visual
+editor: source
 

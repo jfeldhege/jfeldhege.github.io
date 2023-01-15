@@ -4,28 +4,30 @@ about:
   template: trestles
   image: "assets/pfp.jpg"
   links:
-    - text: "{{< fa file-lines >}} CV"
+    - text: "{{< ai cv >}} CV"
       url: "assets/Johannes_Feldhege_Lebenslauf.pdf"
     - icon: linkedin
+      text: Linkedin
       url: "https://www.linkedin.com/in/johannes-feldhege/"
     - icon: github
+      text: Github
       url: "https://github.com/jfeldhege/"
-    - text: "{{< ai google-scholar >}}"
+    - text: "{{< ai google-scholar >}} Google Scholar"
       href: "https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de"
-    - text: "{{< ai researchgate >}}"
+    - text: "{{< ai researchgate >}} Researchgate"
       href: "https://www.researchgate.net/profile/Johannes-Feldhege"
 page-layout: full
 ---
 
-## Über mich
+## {{< fa user >}} Über mich
 
 Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2022 mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit untersucht. Seit 2022 arbeite ich als Data Scientist für Asklepios proreserach an Real World Evidence Studien. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
 
 #### Kontakt:
 
-{{< fa regular envelope >}}  mail \[at\] johannesfeldhege.de
+{{< fa regular envelope >}} mail [at] johannesfeldhege.de
 
-## Ausbildung
+## {{< fa graduation-cap >}} Ausbildung
 
 **Psychologie M.Sc.** \| 2013-2016 \| Universität Kassel
 
@@ -35,7 +37,7 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 
 **International Baccalaureate** \| 2007 \| Malvern College, United Kingdom
 
-## Berufliche Erfahrung
+## {{< fa briefcase >}} Berufliche Erfahrung
 
 **Data Scientist** \| Asklepios proresearch, Hamburg \| 09/2022-
 
@@ -47,7 +49,7 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 
 **Studentische Hilfskraft** \| Servicestelle Empirische Forschungsmethoden, Universität Hamburg \| 2011--2013
 
-## Projekte
+## {{< fa code >}} Projekte
 
 **redditoR**: Ein R Paket für Zugriffe auf die API des sozialen Netzwerks Reddit. [Github](https://github.com/jfeldhege/redditoR)
 

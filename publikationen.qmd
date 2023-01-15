@@ -2,22 +2,20 @@
 title: "Publikationen"
 ---
 
-Auch zu finden auf [{{< ai google-scholar size=2x >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai researchgate size=2x >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de).
+Auch zu finden auf [{{< ai google-scholar size=1.5x >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate size=1.5x >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid size=2x >}} ORCiD](https://orcid.org/0000-0002-4665-5235)
 
+**Feldhege J. M.**, Gulec H., Moessner M., Stieler C., van Stipelen J., Bauer S. *Stigmatization and attitudes toward eating disorders: a comparison between native German adolescents, Turkish immigrant adolescents in Germany, and native Turkish adolescents*. Journal of Mental Health (2022). doi: <https://dx.doi.org/10.1080/09638237.2021.1979484>
 
+**Feldhege, J.**, Moessner M., & Bauer. S. *Detrimental Effects of Online Pro--Eating Disorder Communities on Weight Loss and Desired Weight: Longitudinal Observational Study*. Journal of Medical Internet Research (2021). <http://dx.doi.org/10.2196/27153>
 
-**Feldhege J. M.**, Gulec H., Moessner M., Stieler C., van Stipelen J., Bauer S. *Stigmatization and attitudes toward eating disorders: a comparison between native German adolescents, Turkish immigrant adolescents in Germany, and native Turkish adolescents*. Journal of Mental Health (2022). doi: [https://dx.doi.org/10.1080/09638237.2021.1979484](https://dx.doi.org/10.1080/09638237.2021.1979484) 
+**Feldhege, J.**, Moessner M., Wolf, M., & Bauer. S. *Changes in Language Style and Topics in an Online Eating Disorder Community at the Beginning of the Global COVID-19 Pandemic: Observational Study*. Journal of Medical Internet Research (2021). <http://dx.doi.org/10.2196/28346>
 
-**Feldhege, J.**, Moessner M., & Bauer. S. *Detrimental Effects of Online Pro–Eating Disorder Communities on Weight Loss and Desired Weight: Longitudinal Observational Study*. Journal of Medical Internet Research (2021). [http://dx.doi.org/10.2196/27153](http://dx.doi.org/10.2196/27153)
+Ali, K., Fassnacht, D. B., Farrer, L., Rieger, E., **Feldhege, J.**, Moessner, M., . . . Bauer, S. *What prevents young adults from seeking help? Barriers toward help-seeking for eating disorder symptomatology*. International Journal of Eating Disorders, (2020). <https://dx.doi.org/10.1002/eat.23266>
 
-**Feldhege, J.**, Moessner M.,  Wolf, M., & Bauer. S. *Changes in Language Style and Topics in an Online Eating Disorder Community at the Beginning of the Global COVID-19 Pandemic: Observational Study*. Journal of Medical Internet Research (2021). [http://dx.doi.org/10.2196/28346](http://dx.doi.org/10.2196/28346) 
+Wilhelm, M., **Feldhege, J.**, Bauer. S., & Moessner, M. *Einsatz internetbasierter Verlaufsmessung in der Psychotherapieforschung*. Psychotherapeut, (2020). <https://doi.org/10.1007/s00278-020-00461-7>
 
-Ali, K., Fassnacht, D. B., Farrer, L., Rieger, E., **Feldhege, J.**, Moessner, M., . . . Bauer, S. *What prevents young adults from seeking help? Barriers toward help-seeking for eating disorder symptomatology*. International Journal of Eating Disorders, (2020). [https://dx.doi.org/10.1002/eat.23266](https://dx.doi.org/10.1002/eat.23266)
+**Feldhege, J.**, Moessner, M., Stieler, C., van Stipelen, J., & Bauer, S. *Wissen und Einstellungen zu Essstörungen bei Jugendlichen mit türkischem Migrationshintergrund*. Psychotherapeut, (2019). <https://doi.org/10.1007/s00278-018-0327-8>
 
-Wilhelm, M., **Feldhege, J.**, Bauer. S., & Moessner, M. *Einsatz internetbasierter Verlaufsmessung in der Psychotherapieforschung*. Psychotherapeut, (2020). [https://doi.org/10.1007/s00278-020-00461-7](https://doi.org/10.1007/s00278-020-00461-7)
+**Feldhege, J.**, Moessner, M., & Bauer. S. *Who says What? Content and Participation Characteristics in an Online Depression Community*. Journal of Affective Disorders (2019). <http://dx.doi.org/10.1016/j.jad.2019.11.007>
 
-**Feldhege, J.**, Moessner, M., Stieler, C., van Stipelen, J., & Bauer, S. *Wissen und Einstellungen zu Essstörungen bei Jugendlichen mit türkischem Migrationshintergrund*. Psychotherapeut, (2019). [https://doi.org/10.1007/s00278-018-0327-8](https://doi.org/10.1007/s00278-018-0327-8)
-
-**Feldhege, J.**, Moessner, M., & Bauer. S. *Who says What? Content and Participation Characteristics in an Online Depression Community*. Journal of Affective Disorders (2019). [http://dx.doi.org/10.1016/j.jad.2019.11.007](http://dx.doi.org/10.1016/j.jad.2019.11.007)
-
-Moessner, M., **Feldhege, J.**, Wolf, M., & Bauer. S.. *Analyzing big data in social media: Text and network analyses of an eating disorder forum*. International Journal of Eating Disorders (2018). [http://dx.doi.org/10.1002/eat.22878](http://dx.doi.org/10.1002/eat.22878)
+Moessner, M., **Feldhege, J.**, Wolf, M., & Bauer. S.. *Analyzing big data in social media: Text and network analyses of an eating disorder forum*. International Journal of Eating Disorders (2018). <http://dx.doi.org/10.1002/eat.22878>
