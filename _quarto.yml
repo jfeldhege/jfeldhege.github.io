@@ -3,6 +3,10 @@ project:
 
 website:
   title: "Johannes Feldhege"
+  description: "Persönliche Webseite von Johannes Feldhege"
+  site-url: https://johannesfeldhege.de
+  repo-url: https://github.com/jfeldhege/jfeldhege.github.io
+  open-graph: true
   navbar:
     background: "#2A7B88"
     logo: "assets/logo.png"

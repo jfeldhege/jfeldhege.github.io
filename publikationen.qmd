@@ -2,7 +2,7 @@
 title: "Publikationen"
 ---
 
-Auch zu finden auf [{{< ai google-scholar size=1.5x >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate size=1.5x >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid size=2x >}} ORCiD](https://orcid.org/0000-0002-4665-5235)
+Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate  >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid >}} ORCiD](https://orcid.org/0000-0002-4665-5235)
 
 **Feldhege J. M.**, Gulec H., Moessner M., Stieler C., van Stipelen J., Bauer S. *Stigmatization and attitudes toward eating disorders: a comparison between native German adolescents, Turkish immigrant adolescents in Germany, and native Turkish adolescents*. Journal of Mental Health (2022). doi: <https://dx.doi.org/10.1080/09638237.2021.1979484>
 
