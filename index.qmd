@@ -4,7 +4,7 @@ about:
   template: trestles
   image: "assets/pfp.jpg"
   links:
-    - text: "{{< ai cv >}} CV"
+    - text: "{{< fa regular file-pdf >}} CV"
       url: "assets/Johannes_Feldhege_Lebenslauf.pdf"
     - icon: linkedin
       text: Linkedin

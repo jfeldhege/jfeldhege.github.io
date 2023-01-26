@@ -38,7 +38,9 @@ website:
     style: headline 
     palette: light
   page-footer: 
-    right: Mit {{< fa brands r-project >}} und [Quarto](https://quarto.org/) erstellt.
+    right: |
+      Mit {{< fa brands r-project >}} und [Quarto](https://quarto.org/) erstellt.<br>
+      Source Code auf [{{< fa brands github >}} GitHub]({{< var github-url >}})
 
 format:
   html:
