@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .Rproj
+abstracts.R
 
 /.quarto/
 /_site/

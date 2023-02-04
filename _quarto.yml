@@ -47,6 +47,8 @@ format:
     theme: 
       light: [flatly, styles.scss]
     toc: false
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.johannesfeldhege\.de\/custom'
 
 editor: source
 
