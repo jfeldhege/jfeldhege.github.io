@@ -174,6 +174,26 @@ cookieconsent.run({
 
 <p>Auch zu finden auf <a href="https://scholar.google.com/citations?user=KSmfyO8AAAAJ&amp;hl=de"><i class="ai  ai-google-scholar" title="" style="color:"></i> Google Scholar</a>, <a href="https://scholar.google.com/citations?user=KSmfyO8AAAAJ&amp;hl=de"><i class="ai  ai-researchgate" title="" style="color:"></i> Researchgate</a> und <a href="https://orcid.org/0000-0002-4665-5235"><i class="ai  ai-orcid" title="" style="color:"></i> ORCiD</a></p>
 <p><strong>Feldhege J. M.</strong>, Gulec H., Moessner M., Stieler C., van Stipelen J., Bauer S. <em>Stigmatization and attitudes toward eating disorders: a comparison between native German adolescents, Turkish immigrant adolescents in Germany, and native Turkish adolescents</em>. Journal of Mental Health (2022). doi: <a href="https://dx.doi.org/10.1080/09638237.2021.1979484" class="uri">https://dx.doi.org/10.1080/09638237.2021.1979484</a></p>
+<div class="callout-tip callout callout-style-default no-icon callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Abstract
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Background and aims</p>
+<p>The purpose of this study was to investigate the attitudes toward eating disorders in native German adolescents (Germans), adolescents with Turkish migration background in Germany (Immigrants), and native Turkish adolescents (Turks). Method</p>
+<p>A total of 507 adolescents (N = 139 Germans; N = 126 Immigrants; N = 242 Turks) read a vignette describing a 16-year-old female with bulimic symptoms. Participants completed questionnaires on mental health literacy, stigmatization, desirability of eating disorder-related behaviors and acquaintance with bulimic symptoms. Results</p>
+<p>Adolescents living in Germany were more likely to recognize the vignette as an eating disorder than Turks. Immigrants were more similar to Germans in mental health literacy of eating disorders than Turks. However, in terms of stigmatizing attitudes, immigrants blamed more than Germans, Turks being intermediate on this variable. In Turks, higher desirability of eating disorder-related behaviors was associated with an increased acquaintance with bulimic symptoms and decreased evaluations of impairment. Higher mental health literacy was associated with less blame in Germans. Conclusions</p>
+<p>Migration background was associated with increased mental health literacy of eating disorders but did not result in reduced stigma. Differences in attitudes toward eating disorders indicate the need for differential interventions across the groups.</p>
+</div>
+</div>
+</div>
 <p><strong>Feldhege, J.</strong>, Moessner M., &amp; Bauer. S. <em>Detrimental Effects of Online Pro–Eating Disorder Communities on Weight Loss and Desired Weight: Longitudinal Observational Study</em>. Journal of Medical Internet Research (2021). <a href="http://dx.doi.org/10.2196/27153" class="uri">http://dx.doi.org/10.2196/27153</a></p>
 <p><strong>Feldhege, J.</strong>, Moessner M., Wolf, M., &amp; Bauer. S. <em>Changes in Language Style and Topics in an Online Eating Disorder Community at the Beginning of the Global COVID-19 Pandemic: Observational Study</em>. Journal of Medical Internet Research (2021). <a href="http://dx.doi.org/10.2196/28346" class="uri">http://dx.doi.org/10.2196/28346</a></p>
 <p>Ali, K., Fassnacht, D. B., Farrer, L., Rieger, E., <strong>Feldhege, J.</strong>, Moessner, M., . . . Bauer, S. <em>What prevents young adults from seeking help? Barriers toward help-seeking for eating disorder symptomatology</em>. International Journal of Eating Disorders, (2020). <a href="https://dx.doi.org/10.1002/eat.23266" class="uri">https://dx.doi.org/10.1002/eat.23266</a></p>
@@ -316,6 +336,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/^(?:http:|https:)\/\/www\.johannesfeldhege\.de\/custom/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
