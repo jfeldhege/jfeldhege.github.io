@@ -2,20 +2,55 @@
 title: "Publikationen"
 ---
 
-Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate  >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid >}} ORCiD](https://orcid.org/0000-0002-4665-5235)
+Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid >}} ORCiD](https://orcid.org/0000-0002-4665-5235).
 
-**Feldhege J. M.**, Gulec H., Moessner M., Stieler C., van Stipelen J., Bauer S. *Stigmatization and attitudes toward eating disorders: a comparison between native German adolescents, Turkish immigrant adolescents in Germany, and native Turkish adolescents*. Journal of Mental Health (2022). doi: <https://dx.doi.org/10.1080/09638237.2021.1979484>
 
-**Feldhege, J.**, Moessner M., & Bauer. S. *Detrimental Effects of Online Pro--Eating Disorder Communities on Weight Loss and Desired Weight: Longitudinal Observational Study*. Journal of Medical Internet Research (2021). <http://dx.doi.org/10.2196/27153>
 
-**Feldhege, J.**, Moessner M., Wolf, M., & Bauer. S. *Changes in Language Style and Topics in an Online Eating Disorder Community at the Beginning of the Global COVID-19 Pandemic: Observational Study*. Journal of Medical Internet Research (2021). <http://dx.doi.org/10.2196/28346>
+```{r}
+#| echo: false
+#| output: asis
+#| warning: false
+#| error: false
 
-Ali, K., Fassnacht, D. B., Farrer, L., Rieger, E., **Feldhege, J.**, Moessner, M., . . . Bauer, S. *What prevents young adults from seeking help? Barriers toward help-seeking for eating disorder symptomatology*. International Journal of Eating Disorders, (2020). <https://dx.doi.org/10.1002/eat.23266>
+library(easyPubMed)
+suppressMessages(library(dplyr))
+library(glue)
 
-Wilhelm, M., **Feldhege, J.**, Bauer. S., & Moessner, M. *Einsatz internetbasierter Verlaufsmessung in der Psychotherapieforschung*. Psychotherapeut, (2020). <https://doi.org/10.1007/s00278-020-00461-7>
+my_query <- paste("Johannes Feldhege", "[au]")
 
-**Feldhege, J.**, Moessner, M., Stieler, C., van Stipelen, J., & Bauer, S. *Wissen und Einstellungen zu Essstörungen bei Jugendlichen mit türkischem Migrationshintergrund*. Psychotherapeut, (2019). <https://doi.org/10.1007/s00278-018-0327-8>
+my_pubmed_ids <- get_pubmed_ids(my_query)
+my_data <- fetch_pubmed_data(my_pubmed_ids, encoding = "ASCII")
 
-**Feldhege, J.**, Moessner, M., & Bauer. S. *Who says What? Content and Participation Characteristics in an Online Depression Community*. Journal of Affective Disorders (2019). <http://dx.doi.org/10.1016/j.jad.2019.11.007>
+suppressMessages(art_df <- table_articles_byAuth(my_data,
+                            included_authors = "all",
+                            max_chars = 2000,
+                            encoding = "ASCII"))
 
-Moessner, M., **Feldhege, J.**, Wolf, M., & Bauer. S.. *Analyzing big data in social media: Text and network analyses of an eating disorder forum*. International Journal of Eating Disorders (2018). <http://dx.doi.org/10.1002/eat.22878>
+art_df <- art_df %>% 
+  mutate(firstname = paste0(stringr::str_sub(firstname,1,1), "."),
+         journal = stringr::str_to_title(stringr::str_remove(journal, "\\([A-z ,]+\\)"))) %>% 
+  tidyr::unite("name", c(lastname, firstname),  sep = ", ") %>% 
+  mutate(name = case_when(name == "Feldhege, J." ~ "**Feldhege, J.**",
+                          TRUE ~ name)) %>% 
+  mutate(authors = paste(name, collapse = ", "), .by = pmid) %>% 
+  mutate(doi = glue("https://dx.doi.org/{doi}"),
+         ref = glue("{authors} *{title}* {journal} ({year}). doi: <{doi}>"))
+
+title_df <- art_df %>% 
+  group_by(pmid) %>% 
+  slice(1) %>% 
+  select(pmid, year, ref, abstract, keywords) %>% 
+  arrange(desc(as.numeric(year)))
+
+
+for (i in 1:nrow(title_df)) {
+  cat(glue("<p>{title_df$ref[i]}</p>"))
+  cat(glue("<p>Keywords: *{title_df$keywords[i]}*</p>"))
+  cat(paste('<p>::: {.callout-tip collapse="true" icon="false"} \n'))
+  cat(paste('## Abstract\n'))
+  cat(title_df$abstract[i])
+  cat(paste('\n:::\n</p>'))
+  cat(paste('<p> \n *** \n </p>'))
+}
+
+```

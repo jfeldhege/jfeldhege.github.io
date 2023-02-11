@@ -3,7 +3,8 @@
 .RData
 .Ruserdata
 .Rproj
-abstracts.R
+
+pub.qmd
 
 /.quarto/
 /_site/
