@@ -3,7 +3,7 @@ title: "Publikationen"
 ---
 
 Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid >}} ORCiD](https://orcid.org/0000-0002-4665-5235).
-
+`r cat("<br><br>")`
 
 
 ```{r}
@@ -45,12 +45,13 @@ title_df <- art_df %>%
 
 for (i in 1:nrow(title_df)) {
   cat(glue("<p>{title_df$ref[i]}</p>"))
-  cat(glue("<p>Keywords: *{title_df$keywords[i]}*</p>"))
-  cat(paste('<p>::: {.callout-tip collapse="true" icon="false"} \n'))
-  cat(paste('## Abstract\n'))
+  if(!is.na(title_df$keywords[i]) & nchar(title_df$keywords[i]) > 20) cat(glue("<p>Keywords: *{title_df$keywords[i]}*</p>"))
+  cat('<p>::: {.callout-tip collapse="true" icon="false"} \n')
+  cat('## Abstract\n')
   cat(title_df$abstract[i])
-  cat(paste('\n:::\n</p>'))
-  cat(paste('<p> \n *** \n </p>'))
+  cat('\n:::\n</p>')
+  #cat(paste('<p> \n *** \n </p>')) # horizontal line
+  cat('<br>') 
 }
 
 ```
