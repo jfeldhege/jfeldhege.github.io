@@ -23,9 +23,8 @@ page-layout: full
 
 Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2022 mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit untersucht. Seit 2022 arbeite ich als Data Scientist für Asklepios proreserach an Real World Evidence Studien. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
 
-#### Kontakt:
 
-{{< fa regular envelope >}} mail [at] johannesfeldhege.de
+::: {.panel-tabset}
 
 ## {{< fa graduation-cap >}} Ausbildung
 
@@ -36,6 +35,8 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 **Soziologie und Sinologie B.A.** \| 2007-2010 \| Albert-Ludwigs-Universität Freiburg
 
 **International Baccalaureate** \| 2007 \| Malvern College, United Kingdom
+
+
 
 ## {{< fa briefcase >}} Berufliche Erfahrung
 
@@ -56,3 +57,11 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 **Textanalyse von Call-Dokumentationen zur Erarbeitung von Herausforderungen und Erfolgen in vergangenen Projekten**: Ein Projekt mit projecttogether und CorrelAid.
 
 **Die Platte unter der Lupe: Einflussfaktoren auf die Absatzzahlen einer Mannheimer Suppenküche**: Untersuchung der Absatzzahlen des Lokals Mannheimer Platte und deren saisonale und externe Einflussfaktoren. Ein Projekt mit der Mannheimer Platte und CorrelAid. [Projektbericht](http://dx.doi.org/10.31219/osf.io/3zsn6)
+
+:::
+
+#### Kontakt:
+
+{{< fa regular envelope >}} mail [at] johannesfeldhege.de
+
+{{< fa brands github >}} [jfeldhege](https://github.com/jfeldhege/)
