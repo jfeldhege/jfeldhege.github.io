@@ -21,7 +21,7 @@ page-layout: full
 
 ## {{< fa user >}} Über mich
 
-Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2022 mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit untersucht. Seit 2022 arbeite ich als Data Scientist für Asklepios proreserach an Real World Evidence Studien. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
+Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2022 mit Natural Language Processing Methoden Unterhaltungen zum Thema psychischer Gesundheit auf Reddit untersucht. Seit 2022 arbeite ich als Data Scientist für Asklepios Science & Research an Real World Evidence Studien. In Praktika und in ehrenamtlicher Tätigkeit habe ich verschiedene Data Science Projekte mitgestaltet.
 
 
 ::: {.panel-tabset}
@@ -40,7 +40,7 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 
 ## {{< fa briefcase >}} Berufliche Erfahrung
 
-**Data Scientist** \| Asklepios proresearch, Hamburg \| 09/2022-
+**Data Scientist** \| Asklepios Science & Research, Hamburg \| 09/2022-
 
 **Wissenschaftlicher Mitarbeiter** \| Forschungsstelle für Psychotherapie, Uniklinikum Heidelberg \| 2016-2022
 
@@ -63,5 +63,3 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 #### Kontakt:
 
 {{< fa regular envelope >}} mail [at] johannesfeldhege.de
-
-{{< fa brands github >}} [jfeldhege](https://github.com/jfeldhege/)
