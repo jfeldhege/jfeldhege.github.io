@@ -5,6 +5,7 @@
 .Rproj
 
 pub.qmd
+setup.R
 
 /.quarto/
 /_site/
