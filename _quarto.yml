@@ -17,7 +17,7 @@ website:
         aria-label: Home
       - file: publikationen.qmd
         aria-label: Publikationen
-      - file: assets/Johannes_Feldhege_Lebenslauf.pdf
+      - file: cv.qmd
         text: "CV"
       - file: impressum.qmd
         aria-label: Impressum

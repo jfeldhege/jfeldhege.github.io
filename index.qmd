@@ -5,7 +5,7 @@ about:
   image: "assets/pfp.jpg"
   links:
     - text: "{{< fa regular file-pdf >}} CV"
-      url: "assets/Johannes_Feldhege_Lebenslauf.pdf"
+      url: "cv.qmd"
     - icon: linkedin
       text: Linkedin
       url: "https://www.linkedin.com/in/johannes-feldhege/"

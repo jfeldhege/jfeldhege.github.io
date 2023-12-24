@@ -1,0 +1,12 @@
+---
+title: "Lebenslauf"
+cv:
+  pdf: "assets/Johannes_Feldhege_CV_231224.pdf"
+---
+
+```{=html}
+
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$cv$pdf`" style="border: 0.5px"></iframe>
+</div>
+```
