@@ -3,7 +3,7 @@ title: "Publikationen"
 ---
 
 Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de), [{{< ai researchgate >}} Researchgate](https://scholar.google.com/citations?user=KSmfyO8AAAAJ&hl=de) und [{{< ai orcid >}} ORCiD](https://orcid.org/0000-0002-4665-5235).
-`r cat("<br><br>")`
+`r cat("<br><br><br><br>")`
 
 
 ```{r}
@@ -12,9 +12,11 @@ Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.go
 #| warning: false
 #| error: false
 
-library(easyPubMed)
+suppressMessages(library(easyPubMed))
 suppressMessages(library(dplyr))
-library(glue)
+suppressMessages(library(glue))
+suppressMessages(library(stringr))
+suppressMessages(library(tidyr))
 
 my_query <- paste("Johannes Feldhege", "[au]")
 
@@ -43,15 +45,21 @@ title_df <- art_df %>%
   arrange(desc(as.numeric(year)))
 
 
-for (i in 1:nrow(title_df)) {
-  cat(glue("<p>{title_df$ref[i]}</p>"))
-  if(!is.na(title_df$keywords[i]) & nchar(title_df$keywords[i]) > 20) cat(glue("<p>Keywords: *{title_df$keywords[i]}*</p>"))
-  cat('<p>::: {.callout-tip collapse="true" icon="false"} \n')
-  cat('## Abstract\n')
-  cat(title_df$abstract[i])
-  cat('\n:::\n</p>')
-  #cat(paste('<p> \n *** \n </p>')) # horizontal line
-  cat('<br>') 
+for (i in 1:length(unique(title_df$year))) {
+  cat(glue("<p>{unique(title_df$year)[i]}</p>"))
+  
+  tdf <- title_df %>% filter(year == unique(title_df$year)[i])
+  
+  for (i in 1:nrow(tdf)) {
+    cat(glue("<p>{title_df$ref[i]}</p>"))
+    if(!is.na(title_df$keywords[i]) & nchar(title_df$keywords[i]) > 20) cat(glue("<p>Keywords: *{title_df$keywords[i]}*</p>"))
+    cat('<p>::: {.callout-tip collapse="true" icon="false"} \n')
+    cat('## Abstract\n')
+    cat(title_df$abstract[i])
+    cat('\n:::\n</p>')
+    #cat(paste('<p> \n *** \n </p>')) # horizontal line
+    cat('<br>') 
+  }
 }
 
 ```
