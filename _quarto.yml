@@ -42,6 +42,9 @@ website:
       Mit {{< fa brands r-project >}} und [Quarto](https://quarto.org/) erstellt.<br>
       Source Code auf [{{< fa brands github >}} GitHub]({{< var github-url >}})
 
+execute: 
+  freeze: auto
+
 format:
   html:
     theme: 
