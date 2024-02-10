@@ -58,7 +58,7 @@ Als wissenschaftlicher Mitarbeiter am Uniklinikum Heidelberg habe ich von 2017-2
 
 **Die Platte unter der Lupe: Einflussfaktoren auf die Absatzzahlen einer Mannheimer Suppenküche**: Untersuchung der Absatzzahlen des Lokals Mannheimer Platte und deren saisonale und externe Einflussfaktoren. Ein Projekt mit der Mannheimer Platte und CorrelAid. [Projektbericht](http://dx.doi.org/10.31219/osf.io/3zsn6)
 
-**Experimente mit Quarto Dashboards, WebR und Shinylive**:  [Quarto Dashboard](https://www.johannesfeldhege.de/dashboard_lifeexp/), [WebR Testseite](http://www.johannesfeldhege.de/webr_test/) und [Shinylive Testseite](http://www.johannesfeldhege.de/shinylive_test/)
+**Experimente mit Quarto Dashboards, WebR und Shinylive**:  [Quarto Dashboard](https://www.johannesfeldhege.de/dashboard_lifeexp/), [WebR Testseite](http://www.johannesfeldhege.de/webr_test/), [Shinylive  in einem Quarto Dokument](http://www.johannesfeldhege.de/shinylive_test/) und [Eine standalone Shinylive App](http://www.johannesfeldhege.de/shinylive_test2/)
 
 :::
 
