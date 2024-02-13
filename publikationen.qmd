@@ -46,7 +46,7 @@ title_df <- art_df %>%
 
 
 for (i in 1:length(unique(title_df$year))) {
-  cat(glue("<p>{unique(title_df$year)[i]}</p>"))
+  cat(glue("<p><b>{unique(title_df$year)[i]}</b></p>"))
   
   tdf <- title_df %>% filter(year == unique(title_df$year)[i])
   
