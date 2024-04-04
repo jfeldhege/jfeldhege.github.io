@@ -51,11 +51,11 @@ for (i in 1:length(unique(title_df$year))) {
   tdf <- title_df %>% filter(year == unique(title_df$year)[i])
   
   for (i in 1:nrow(tdf)) {
-    cat(glue("<p>{title_df$ref[i]}</p>"))
-    if(!is.na(title_df$keywords[i]) & nchar(title_df$keywords[i]) > 20) cat(glue("<p>Keywords: *{title_df$keywords[i]}*</p>"))
+    cat(glue("<p>{tdf$ref[i]}</p>"))
+    if(!is.na(tdf$keywords[i]) & nchar(tdf$keywords[i]) > 20) cat(glue("<p>Keywords: *{tdf$keywords[i]}*</p>"))
     cat('<p>::: {.callout-tip collapse="true" icon="false"} \n')
     cat('## Abstract\n')
-    cat(title_df$abstract[i])
+    cat(tdf$abstract[i])
     cat('\n:::\n</p>')
     #cat(paste('<p> \n *** \n </p>')) # horizontal line
     cat('<br>') 
