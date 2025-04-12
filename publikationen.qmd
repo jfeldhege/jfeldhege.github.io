@@ -36,7 +36,7 @@ art_df <- art_df %>%
                           TRUE ~ name)) %>% 
   mutate(authors = paste(name, collapse = ", "), .by = pmid) %>% 
   mutate(doi = glue("https://dx.doi.org/{doi}"),
-         ref = glue("{authors} *{title}* {journal} ({year}). doi: <{doi}>"))
+         ref = glue("{authors} *{title}* {journal} ({year}). <{doi}>"))
 
 title_df <- art_df %>% 
   group_by(pmid) %>% 
