@@ -8,7 +8,6 @@ website:
   repo-url: https://github.com/jfeldhege/jfeldhege.github.io
   open-graph: true
   navbar:
-    background: "#2A7B88"
     logo: "assets/logo.png"
     search: false
     right:
@@ -47,8 +46,10 @@ execute:
 
 format:
   html:
+    respect-user-color-scheme: true
     theme: 
-      light: [flatly, styles.scss]
+      light: [flatly, styles.scss, light.scss]
+      dark: [darkly, styles.scss, dark.scss]
     toc: false
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/www\.johannesfeldhege\.de\/custom'

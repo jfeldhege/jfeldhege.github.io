@@ -14,7 +14,7 @@ Auch zu finden auf [{{< ai google-scholar >}} Google Scholar](https://scholar.go
 
 suppressMessages(library(easyPubMed))
 suppressMessages(library(dplyr))
-suppressMessages(library(glue))
+suppressWarnings(library(glue))
 suppressMessages(library(stringr))
 suppressMessages(library(tidyr))
 

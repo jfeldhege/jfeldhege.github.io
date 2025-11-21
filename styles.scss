@@ -60,6 +60,9 @@ $web-font-path: "No";
 $font-family-sans-serif:  "Cabin", "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans !default;
 $font-family-monospace: 'Roboto Mono', 'Fira Code', monospace;
 
+$link-color: $col1;
+
+
 /*-- scss:rules --*/
 
 // litera is serif by default: revert to san-serif
