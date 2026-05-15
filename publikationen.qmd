@@ -20,28 +20,27 @@ suppressMessages(library(tidyr))
 
 my_query <- paste("Johannes Feldhege", "[au]")
 
-my_pubmed_ids <- get_pubmed_ids(my_query)
-my_data <- fetch_pubmed_data(my_pubmed_ids, encoding = "ASCII")
+my_pubmed_ids <- epm_query(my_query, verbose = FALSE)
+my_records <- epm_fetch(my_pubmed_ids, verbose = FALSE)
 
-suppressMessages(art_df <- table_articles_byAuth(my_data,
-                            included_authors = "all",
-                            max_chars = 2000,
-                            encoding = "ASCII"))
+my_records_parsed <- epm_parse(my_records, verbose = FALSE)
+
+art_df <- get_epm_data(my_records_parsed)
 
 art_df <- art_df %>% 
-  mutate(firstname = paste0(stringr::str_sub(firstname,1,1), "."),
-         journal = stringr::str_to_title(stringr::str_remove(journal, "\\([A-z ,]+\\)"))) %>% 
-  tidyr::unite("name", c(lastname, firstname),  sep = ", ") %>% 
-  mutate(name = case_when(name == "Feldhege, J." ~ "**Feldhege, J.**",
-                          TRUE ~ name)) %>% 
-  mutate(authors = paste(name, collapse = ", "), .by = pmid) %>% 
+  mutate(authors = str_replace(authors, "Johannes Feldhege", 
+                               "**Johannes Feldhege**"),
+         authors = str_replace(authors, "Johannes Markus Feldhege", 
+                               "**Johannes Markus Feldhege**")
+         ) %>%
+  # mutate(authors = paste(name, collapse = ", "), .by = pmid) %>% 
   mutate(doi = glue("https://dx.doi.org/{doi}"),
          ref = glue("{authors} *{title}* {journal} ({year}). <{doi}>"))
 
 title_df <- art_df %>% 
   group_by(pmid) %>% 
   slice(1) %>% 
-  select(pmid, year, ref, abstract, keywords) %>% 
+  select(pmid, year, ref, abstract) %>% 
   arrange(desc(as.numeric(year)))
 
 
@@ -52,7 +51,6 @@ for (i in 1:length(unique(title_df$year))) {
   
   for (i in 1:nrow(tdf)) {
     cat(glue("<p>{tdf$ref[i]}</p>"))
-    if(!is.na(tdf$keywords[i]) & nchar(tdf$keywords[i]) > 20) cat(glue("<p>Keywords: *{tdf$keywords[i]}*</p>"))
     cat('<p>::: {.callout-tip collapse="true" icon="false"} \n')
     cat('## Abstract\n')
     cat(tdf$abstract[i])
